@@ -97,6 +97,7 @@ import {SelectOverviewExample} from './select-overview/select-overview-example';
 import {SelectPanelClassExample} from './select-panel-class/select-panel-class-example';
 import {SelectResetExample} from './select-reset/select-reset-example';
 import {SelectValueBindingExample} from './select-value-binding/select-value-binding-example';
+import {SelectHeaderExample} from './select-header/select-header-example';
 import {SidenavAutosizeExample} from './sidenav-autosize/sidenav-autosize-example';
 import {SidenavDisableCloseExample} from './sidenav-disable-close/sidenav-disable-close-example';
 import {SidenavDrawerOverviewExample} from './sidenav-drawer-overview/sidenav-drawer-overview-example';
@@ -640,6 +641,12 @@ export const EXAMPLE_COMPONENTS = {
     additionalFiles: null,
     selectorName: null
   },
+  'select-header': {
+    title: 'Select header filtering',
+    component: SelectHeaderExample,
+    additionalFiles: null,
+    selectorName: null
+  },
   'sidenav-disable-close': {
     title: 'Sidenav with custom escape and backdrop click behavior ',
     component: SidenavDisableCloseExample,
@@ -823,6 +830,7 @@ export const EXAMPLE_COMPONENTS = {
 };
 
 export const EXAMPLE_LIST = [
+
   AutocompleteDisplayExample,
   AutocompleteFilterExample,
   AutocompleteOverviewExample,
@@ -907,6 +915,7 @@ export const EXAMPLE_LIST = [
   SelectPanelClassExample,
   SelectResetExample,
   SelectValueBindingExample,
+  SelectHeaderExample,
   SidenavAutosizeExample,
   SidenavDisableCloseExample,
   SidenavDrawerOverviewExample,

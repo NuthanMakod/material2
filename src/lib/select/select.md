@@ -81,6 +81,16 @@ If you want to display a custom trigger label inside a select, you can use the
 
 <!-- example(select-custom-trigger) -->
 
+### Adding a header
+ 
+ You can add an extra header that will stay fixed on top of the select's option as the user scrolls.
+ The header can be used as a filter bar or as an extra title. Note that the accessibility of the
+ header content is up to the consumer. For example when using it as a filter bar, the `input` element
+ should have a `role="combobox"` and an `[attr.aria-owns]="select.panelId"`.
+ 
+ <!-- example(select-header) -->
+ 
+
 ### Disabling the ripple effect
 
 By default, when a user clicks on a `<mat-option>`, a ripple animation is shown. This can be disabled
